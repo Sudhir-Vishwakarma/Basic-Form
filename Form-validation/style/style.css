@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Julee', cursive;
+}
+body{
+    background: linear-gradient(90deg, rgba(238,226,209,1) 0%, rgba(245,244,219,1) 99%);
+}
+.main-container{
+    width: 85%;
+    height: 100%;
+    /* border: 1px solid black; */
+    margin: 30px auto;
+    border-radius: 20px;
+    display: flex;
+}
+.left-part-container{
+    width: 40%;
+    /* height: 550px; */
+    background-color: #FF7F50;
+    /* border: 1px solid orangered; */
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.circle-one{
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    position: absolute;
+    top: 14%;
+    left: 12%;
+    background: linear-gradient(148deg, rgba(255,255,255,1) 0%, rgba(255,127,80,1) 82%);
+}
+.circle-two{
+    width: 150px;
+    height: 150px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    position: absolute;
+    top: 24%;
+    left: 30%;
+    background: linear-gradient(148deg, rgba(255,255,255,1) 0%, rgba(255,127,80,1) 82%);
+    
+}
+.circle-three{
+    width: 70px;
+    height: 70px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    position: absolute;
+    top: 70%;
+    left: 38%;
+    background: linear-gradient(148deg, rgba(255,255,255,1) 0%, rgba(255,127,80,1) 82%);
+    
+}
+.circle-four{
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    position: relative;
+    top: 85%;
+    left: 20%;
+    background: linear-gradient(148deg, rgba(255,255,255,1) 0%, rgba(255,127,80,1) 82%);
+    
+}
+.left-part{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 28%;
+}
+.left-part .left-title{
+    font-size: 65px;
+    color: #fff;
+}
+.left-part .left-content{
+    font-size: 20px;
+    color: #fff;
+}
+.right-part-container{
+    width: 60%;
+    /* height: 550px; */
+    background-color: #FFE5B4;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* padding: 20px; */
+}
+.right-title{
+    width: auto;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 4%;
+    left: 8%;
+    font-size: 25px;
+    margin-bottom: -20px;
+}
+.firstname-error{
+    color: red;
+}
+.lastname-error{
+    color: red;
+}
+.email-error{
+    color: red;
+}
+.password-error{
+    color: red;
+}
+.confirm-password-error{
+    color: red;
+}
+.discription-error{
+    color: red;
+}
+.name-container{
+    width: 100%;
+    display:block;
+    margin: 0px 30px;
+    /* margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px; */
+}
+.firstname-container{
+    width: 50%;
+    float: left;
+    
+}
+.lastname-container{
+    width: 50%;
+    float: right;
+}
+.firstname{
+    width: 80%;
+    display: block;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
+.lastname{
+    width: 80%;
+    display: block;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
+.email-container{
+    width: 100%;
+    /* margin-top: 30px; */
+    margin-left: 30px;
+}
+.email-label{
+    display: block;
+}
+.email{
+    display: block;
+    padding: 5px;
+    width: 90%;
+    font-size: 17px;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+}
+.passwords-container{
+    width: 100%;
+    display:block;
+    margin-left: 30px;
+    /* margin-top: 50px; */
+    margin-bottom: 50px;
+}
+.password-container{
+    width: 50%;
+    float: left;
+}
+.confirm-password-container{
+    width: 50%;
+    float: right;
+}
+.password{
+    width: 80%;
+    display: block;
+    padding: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
+.confirm-password{
+    width: 80%;
+    display: block;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
+.description{
+    width: 100%;
+    margin: 30px;
+}
+.description-label{
+    margin-top: 50px;
+    display: block;
+}
+.description-text{
+    width: 90%;
+    display: block;
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
+.main-input-container{
+    margin-top: 70px;
+}
+.btn-main-container{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+.question{
+    float: left;
+    margin-left: 50px;
+}
+.question a{
+    text-decoration: none;
+}
+.btn-register{
+    width: 100px;
+    padding: 7px 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.btn-register:hover{
+    background-color: rgba(255,127,80,1);
+    color: #fff;
+    transition: 0.1s ease;
+}
+
+/* Media Queries */
+
+@media screen and (max-width:480px){
+    body{
+        background-color: #FFE5B4;
+    }
+    .left-part-container .circle-one{
+        z-index: 2;
+        top: 7%;
+    }
+    .left-part-container .circle-two{
+        width: 140px;
+        height: 140px;
+        z-index: 2;
+        left: 60%;
+    }
+    .left-part-container .circle-three{
+        z-index: 2;
+        top: 58%;
+        left: 60%;
+    }
+    .left-part-container .circle-four{
+        z-index: 2;
+        top: 82%;
+    }
+    .main-container{
+        width: 100%;
+    }
+    .left-part-container{
+        width: 100%;
+        position: absolute;
+        height: 100%;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .left-part-container .left-part{
+        display: none;
+    }
+    .right-part-container{
+        width: 100%;
+        position: absolute;
+        height: 100%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        background-color: #FF7F50;
+        
+    }
+    .right-title{
+        width: 100%;
+        display: flex;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .text-two{
+        margin-left: 15px;
+    }
+    .main-input-container{
+        background-color: #FF7F50;
+    }
+    .name-container{
+        width: 100%;
+    }
+    .main-input-container .name-container .firstname-container{
+        width: 100%;
+    }
+    .firstname-label{
+        width: 50%;
+        display: block;
+        color: #fff;
+        font-size: 25px;
+    }
+    .firstname{
+        width: 85%;
+        display: block;
+        font-size: 20px;
+        background: transparent;
+        color: #000;
+    }
+    .lastname-container{
+        width: 100%;
+    }
+    .lastname-label{
+        width: 50%;
+        display: block;
+        color: #fff;
+        font-size: 25px;
+    }
+    .lastname{
+        width: 85%;
+        display: block;
+        font-size: 20px;
+        background: transparent;
+        color: #000;
+    }
+    .email-container{
+        width: 100%;
+    }
+    .email-label{
+        width: 50%;
+        display: block;
+        color: #fff;
+        font-size: 25px;
+    }
+    .email{
+        width: 85%;
+        display: block;
+        font-size: 20px;
+        background: transparent;
+        color: #000;
+    }
+    .passwords-container{
+        width: 100%;
+    }
+    .password-container{
+        width: 100%;
+    }
+    .password-label{
+        width: 50%;
+        display: block;
+        color: #fff;
+        font-size: 25px;
+    }
+    .password{
+        width: 85%;
+        display: block;
+        font-size: 20px;
+        background: transparent;
+        color: #000;
+    }
+    .confirm-password-container{
+        width: 100%;
+    }
+    .confirm-password-label{
+        width: 50%;
+        display: block;
+        color: #fff;
+        font-size: 25px;
+    }
+    .confirm-password{
+        width: 85%;
+        display: block;
+        font-size: 20px;
+        background: transparent;
+        color: #000;
+    }
+    .description{
+        width: 100%;
+    }
+    .description-label{
+        width: 50%;
+        display: block;
+        color: #fff;
+        font-size: 25px;
+    }
+    .description-text{
+        width: 85%;
+        display: block;
+        font-size: 20px;
+        background: transparent;
+        color: #000;
+    }
+    .btn-main-container{
+        width: 100%;
+        display: inline;
+        text-align: center;
+    }
+    .question{
+        display: block;
+        width: 90%;
+        margin-left: 10px;
+    }
+    .btn-register{
+        width: 85%;
+        margin: 40px;  
+    }
+    .btn-main-container .btn-register:hover{
+        color: #fff;
+        background-color: #FF7F50;
+        border: 1px solid #fff;
+    }
+}
+@media screen and (max-width:710){
+    
+}
